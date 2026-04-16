@@ -8,7 +8,7 @@ interface FoodCardProps {
   stall: Stall;
   index: number;
 }
-
+//lmao
 export const FoodCard: React.FC<FoodCardProps> = ({ stall, index }) => {
   return (
     <motion.div
